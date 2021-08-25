@@ -26,6 +26,10 @@ int main(void) {
 	doubleNumber = 2.0/3.0;
 	longDoubleNumber = 2.0/3.0;
 
+	puts ("---------------------------------------");
+	puts("Simple Division Imprecision: number = 2.0 / 3.0");
+	puts ("---------------------------------------");
+	
 	puts("\nCompare precision at 4 decimal points:");
 	puts ("---------------------------------------");
 	printf("floatNumber      = %1.4f\n", floatNumber);
